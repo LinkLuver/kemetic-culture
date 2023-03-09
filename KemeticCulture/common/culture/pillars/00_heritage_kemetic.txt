@@ -1,0 +1,8 @@
+﻿
+heritage_kemetic = {
+	type = heritage
+	parameters = { 
+		heritage_group_north_african = yes
+		heritage_family_african = yes 
+	}
+}

@@ -1,0 +1,105 @@
+﻿	
+name_list_kemetic = {
+		cadet_dynasty_names = {
+			dynn_Narmerid dynn_Hotepsekhemwid dynn_Netjerikhetid dynn_Nebmaatid dynn_Userkafid dynn_Seheteptawid
+			dynn_Meryibtawid dynn_Meryhathorid dynn_Ikuid dynn_Sehetepibrid dynn_Sobekhotepid dynn_Yakbmuid
+			dynn_Aamuid dynn_Werqaid dynn_Wahkhawid dynn_Thutmosid dynn_Ahmosid dynn_Menpehtyrid dynn_Setnakhtid
+			dynn_Mn_Abdjw dynn_Mn_Waset dynn_Mn_Men_Nefer dynn_Mn_Khem dynn_Mn_Yamu dynn_Mn_Raqote dynn_Mn_Khito
+			dynn_Mn_Ptkheka dynn_Mn_Zau dynn_Mn_Khasut dynn_Mn_Timinhor dynn_Mn_Menouthis dynn_Mn_Pikuat dynn_Mn_Djedu
+			dynn_Mn_Tjebnutjer dynn_Mn_Iunu
+		}
+		dynasty_names = {
+		dynn_Narmerid dynn_Hotepsekhemwid dynn_Netjerikhetid dynn_Nebmaatid dynn_Userkafid dynn_Seheteptawid
+		dynn_Meryibtawid dynn_Meryhathorid dynn_Ikuid dynn_Sehetepibrid dynn_Sobekhotepid dynn_Yakbmuid
+		dynn_Aamuid dynn_Werqaid dynn_Wahkhawid dynn_Thutmosid dynn_Ahmosid dynn_Menpehtyrid dynn_Setnakhtid
+		dynn_Mn_Abdjw dynn_Mn_Waset dynn_Mn_Men_Nefer dynn_Mn_Khem dynn_Mn_Yamu dynn_Mn_Raqote dynn_Mn_Khito
+		dynn_Mn_Ptkheka dynn_Mn_Zau dynn_Mn_Khasut dynn_Mn_Timinhor dynn_Mn_Menouthis dynn_Mn_Pikuat dynn_Mn_Djedu
+		dynn_Mn_Tjebnutjer dynn_Mn_Iunu
+		}
+		male_names = {
+			Amenemope "Wahibre-Haaibre" Ammeris Amasis Ankhefensekhmet Amenemope
+			Amenemnisu "Amun-her-khepeshef" Amenhotep Anhotep Amenmose Amenmesse
+			Amenemopet Aperel Khutawyre
+            Anen "Amenhotep-Huy" Amenemhat Akhenaten Addaya Ahmes "Anat-her" Aperanat
+            Apepi Ankhu Aabeni Amenemhatankh Ankhtifi Ankhmare Ankhreshet Ankherfenedjef
+            Anedjib Babaef Baufra Buneb Baqet Bebi Bebnum Bebiankh Bek Bakenkhonsu Bakenranef
+			Dagi Dedi Dedumose Den Didia Djaty Djau Djedefhor Djedefptah Djedefre Djedhor
+			Djedi Djediufankh "Djedkare Isesi" "Djedkare Shemai" Djedkhonsuefankh Djedptahiufankh
+            Djehuti Djehuty Djehutihotep Djehutyemhat Djehutynakht Djer Djet Djoser Duaenhor
+			Duaenre Hemaka "Hor-Aha" Hotepsekhemwy "Horus Sa" "Hesy-Ra" Huni Hemiunu Horbaef
+            Harkhuf Heqaib Hannu Hor Hotepibre Hapuseneb Hatshepsut Hepu Horemheb Huy Huya
+            Heqanakht Hunefer Hori Herihor Hewernef Harsiese Hornakht Haremakhet Harwa Hakor
+			Hsekiu Iuput "Iry-Hor" Iuty Ibi Iufaa Iuput Iuwelot Ineni Intef Ibiau Ibiaw Imyremeshaw
+            Iufni Iymeru Intefiqer Iyibkhentre "Isesi-ankh" Inkaef Isu Itisen Itu
+			Iunmin Iunre Iynefer Imhotep Ka Khayu Khuiqer Khaemweset Khabekhnet Khaemtir
+			Khawy Khay Kamose Khamudi Khyan Khabaw Kheti Khnumhotep Khety Khui Kagemni
+            Khnumhotep Kaaper Kaemqed Kaemsekhem Kakhent Kanefer Kawab Khafre Khentimeresh
+			Khufu Khufukhaf Kagemni Khaba Khasekhemwy Mahu Maiherpri Menes "Mesen-ka"
+			Menkaure Minkhaf Mindjedef "Menkauhor Kaiu" Minnefer Merefnebef "Merenre Nemtyemsaf"
+            Mereruka Meryteti Menkare Merenhor "Meryibre Khety" Meryhathor Meketre Mentuhotep
+			Meru Mesehti Merkare Merkheperre "Merneferre Ay" Merdjefare Merhotepre Mentuhotepi
+			Maya Menkheperraseneb Menna Merymose Meryptah Meryre Minmontu Minmose
+			Merneptah Meryatum Merysekhmet Mentuherkhopshef Mentuherkhepeshef Masaharta
+			Merikare Muthis Nakhthoreb Nectanebo Nefaarud Nekau Neferkare Nekauba 
+			Nimlot Nemareth Neterkheperre Nebmaatre "Nebneteru Tenry" Nebwenenef Neferronpet
+			Nebamun Nakht Nakhtmin Nakhtpaaten Nebwawy Nedjem Nehi Nebmaatre Nebiriau
+			Nebit Neferhotep Nebsenre Nehesy Nuya Nebankh Nebnuni Nedjemibre Neby
+			Nerikare Neferkare Nebkaure Neferkamin Neferkara Neferkauhor Neferkaure 
+			Neferkahor Neferkamin Netjerkare Nikare Nefersheshemre Neitiqerty Nemtyemsaf
+			Neferefre Neferirkare Neserkauhor Nykara "Nyuserre Ini" Nebemakhet
+			Neferkau Nefermaat Nikaure Nebre Nynetjer Narmer Osorkon Pabasa Pahemnetjer
+			Pami Panehesy Paraemheb Pareherwenemef Parennefer Pasenhor Paser Pashedu
+            Paweraa Pawura Pebekkamen Pediamenopet Pediese "Pehen-Ptah" Pedubast
+			Peftjauawybast Pennesuttawy Pensekhmet Pentaweret Penthu Pentu Pepi
+			Perneb Peseshet Petubastis Piankh Pihuri Pimay Pinedjem Pinehesy Pipi
+			Prehotep Psammuthes Psamtik Pasibkhanu Ptahhotep Ptahmose Ptahshepses
+			Puimre "Qa'a" Qakare Qar Qareh Qen Qenna Raemka Raherka Rahotep Ramesses
+			Ramessesnakht Ramose Raneb Ranefer Rawer Rehuerdjersen Rekhmire Renseneb
+            "Roma-Roi" Rudamun Sabef Sabni Sabu Sahure "Sakir-Har" Salitis Sanakht
+			Sankhenre Satkhnum Sebkay Sedjefakare Segerseni Sehebre Seheqenre Sehetepre
+			"Sekhemib-Perenmaat" Sekhemkare Seekhemkhet Sekhemre Sekheperenre Sematawytefnakht
+			Semenkare Semenre Semerkhet Semqen Senakhtenre Seneb Senebhenaf Senebi
+			Senebkay Senedj Senedjemib Senenmut "Senewosret-Ankh" Sennedjem Sennefer
+			Senneferi Senusret Seqenenre Sefka Setau Seth "Seth-Peribsen" Seti Setnakhte
+            Setut Seuserenre Sewadjkare Shabaka Sharek Shebitku "Shedsu-nefertum" Shemay
+			Sheneh Shenshek Shepenupet Shepseskaf Shepseskare Shepesneb Shery Shoshenq
+			Sheshonk Siamun Siatum Siese Sihathor Siamut Siptah Smendes Smenkhkare Snaaib
+			Sneferu Sneferukhaf Sobekemhat Sobekemsaf Sobekhotep Sobeknakht Sonbef
+			Teta Teti Tefibi Thutmose Tutankhamun Tutu Takelot Tutkheperre Tefnakht
+			Udjahorresnet Unas Useramen Userhet Userkaf Userkare Usermontu Wadjmose
+			Wadjitefni "Wahibre Ibiau" "Wahkare Khety" Wahtye Webensenu Wegaf Wehemka
+            Wendjebauendjed Weneg Wenennefer Weni Wepwawetemsaf Wetka Wazad "Ya'ammu" 
+			Yakareb Yakbim Yanhamu "Yaqub-Har" Yuny Yuna Yuyu Zamonth 
+		}
+		female_names = {
+			Ankhnesneferibre Atakhebasken Ashakhet Ankhesenamen Amenia Ahmose Ahhotep
+            Aat Ankhesenpepi Ahaneith Benerib Betrest Bunefer Behenu Beketamun Beketaten
+			Bintanath Baketwernel Dakhamunzu Djefatnebti Djefatsen Djeseretnebti Duatentopet
+			"Duathathor-Henuttawy" Gautseshen Herneith Hetephernebti Hekenuhedjet Hemetre
+			Henutsen Hetepheres Hedjetnebu Henuttaneb Hui Henutmehyt Henutmire Henuttawy
+            Henutwati "Henut Taui" Ha Isetemkheb Iset Isetnofret Iaret Ipu Ineni "Inenek-Inti"
+			Iput Isesu Itet Inetkawes Khedebneithirbinet Khensa Karomama Kapes Kiya Keminub
+			Khenemetneferhedjet Khuit Kekheretnebti Khamerernebty Khentkaus Khenut Khentetka
+			Khenthap Maia Meresamun Merneith Meresankh Mereret Maatkare Mehytenweskhet
+			Meritites "Meret-Isesi" Meretseger Mentuhotep Meketaten Menhet Menwi Meritamen
+			Meritaten Merti Mutbenret Mutemwiya Mutnedjmet Mutnofret "Merytre-Hatshepsut"
+			Mutnedjmet Nitiqret Nakhtubasterau Naparaye Nesitanebetashru Nesitaudjatakhet
+			Nauny Neskhons Nsikhonsou Nodjmet Nubkhesbed Nebettawy Nefertari Nebtu Nebetah
+			Nebetia Nebetiunet Nebetnehat Neferneferuaten Neferneferure Nefertiti Neferure
+			Nefrubity "Nubhetepti-khered" Nubkhaes Neferthenut Neferu Neferuptah Nofret Nebet
+			Nedjeftet Neith Nubwenet Nebtyemneferes Neferetnebty Nimaethap "Nebty-tepites"
+			Nedjemib Neferhetepes Nefertiabet Nefertkau Nefertnesu Netjeraperef Nakhtneith
+			Neithhotep Pageti Patareshnes Peksater Penebui Persenet Pyhia Qalhata Rekhetre
+            Reptynub Reputnebty Satiah Sehener Sekhmakh Semat Sensneb Serethor Seshemetka
+			Sesheshet Setepenre "Shepset-ipet" Sitamun Sitdjehuti Sithathoriunet Sitre 
+			Sobekneferu Tabekenamun Tadibast Tetisheri Tadukhipa Tentamun Tey Tiaa Tiye
+			Tjuyu Takhat Tia Tuya Twosret Tawerettenru "Tiy-Merenese" Tyti Tjanefer
+			Tashedkhonsu Takahatenamun Tentkheta Udjebten
+		}   
+	#https://en.wikipedia.org/wiki/List_of_ancient_Egyptians#B
+	dynasty_of_location_prefix = "dynnp_mn"
+	
+	# https://en.wikipedia.org/wiki/Nomen_(Ancient_Egypt)
+	patronym_prefix_male = "dynnp_sa"
+
+}

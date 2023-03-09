@@ -1,0 +1,39 @@
+﻿	
+name_list_coptic = {
+		cadet_dynasty_names = {
+            dynn_Ma_Pashati dynn_Ma_Alexanaria dynn_Ma_Pakoti dynn_Ma_Shmun dynn_Youhanna dynn_Atia dynn_Ma_Pmanhabin dynn_Sa_Pishoy dynn_Sa_Kleopatros
+			dynn_Sa_Ouenofre dynn_Sa_Piroou dynn_Talaia dynn_La_Thout dynn_La_Paopi dynn_La_Hathor dynn_La_Koiak dynn_Tobi dynn_La_Meshir dynn_La_Paremhat
+			dynn_La_Parmouti dynn_La_Pashons dynn_La_Paoni dynn_La_Epip dynn_La_Mesori dynn_Mn_Akhet dynn_Mn_Proyet dynn_Mn_Shomu
+		}
+		dynasty_names = {
+            dynn_Ma_Pashati dynn_Ma_Alexanaria dynn_Ma_Pakoti dynn_Ma_Shmun dynn_Youhanna dynn_Atia dynn_Ma_Pmanhabin dynn_Sa_Pishoy dynn_Sa_Kleopatros
+			dynn_Sa_Ouenofre dynn_Sa_Piroou dynn_Talaia dynn_La_Thout dynn_La_Paopi dynn_La_Hathor dynn_La_Koiak dynn_Tobi dynn_La_Meshir dynn_La_Paremhat
+			dynn_La_Parmouti dynn_La_Pashons dynn_La_Paoni dynn_La_Epip dynn_La_Mesori dynn_Mn_Akhet dynn_Mn_Proyet dynn_Mn_Shomu
+		}
+		male_names = {
+            Abonah Agrippas Agrippinos Athom Athenodoros Athanasios Aleksandra Aleksandros Ammon Ammonios Amoun Amon Anoub Andronikos Andreas
+			Anastasios Antone Antoni Antinoos Antwnios Antiokhos Apollodoros Apollonios Apollotore Apaskhuron Apater Arkadios Aristoboulos
+			Aristos Aristophanes Askla Atoum Aurelios Akhilleue Apamoun Apanoub Biktor Bakkhos Bane Benipi Benofer Bartholomaios Bartholomeos Barnabas Bes
+			Besa Besamon Gabriel Gennadios Germanikos Germanos Gaios Diodoros Dioklas Diomedes Damianos Demetrios Diometes Diwnesios Dios
+			Dioskoros Dauid Ebonh Ethom Epiphaneios Epiphanios Ermodoros Ermoklas Ermokrates Eudaimon Eudoros Eumenes Eutropios Efonx Zenon
+			Eraklas Theodoros Thekla Thekle Theon Thetmosi Theophilos Ioannes Ieraklas Ierakos Ieraks Isidoros Iosep Ioseph Ioulianos
+			Ioustinianos Ioustinos Iohannes Kellouch Kleomenes Kleopatros Klaudios Kalashire Konstantinos Kuriakos Kurillos Kornelios Keros Kosmas
+			Kuros Leonidas Men Mena Menrit Merkourios Markos Moris Mikhael Nikolaos Niran Nahroou Onnophris Onorios Papnoute Pamoun Ploutonios Pambo Pimen
+			Poimen Panikuros Panipan Paape Poplios Periklas Priskos Parsoma Perseus Piroou Paesi Posidonios Pisthani Pesunthios Ptolemaios Pennouti Pishoy
+			Patape Patroklas Patermouthios Patermoute Petros Petephre Paule Paulos Pausire Paphnouti Pishoi Pishennoufi Pashonti Paxom Panoub Psote Phnouti
+			Pichol Pichimi Pigol Psote Romanos Sidhom Skeirion Sokrates Sarapamon Shenouda Tiberios Traiane Traianos Titoue Taho Techi Ouenofre Ouriel Ouershenoufi
+			Phib Phoibammon Phoibos Philippos Philopator Phlaubios Phlaouios Phanios Phaesi Phausta Phaustos Kharakhte Psahte Psati Shenouti Usire
+			Houthmen Hol Hor Hermogenes Harmine Hermauos Hieraks Horsiese Horsiesi Herwoch Chimous Chichoi Chicoi Calashire Cishoi Cichoi Tawadros
+		}
+		female_names = {
+            Arisone Anthelia Berenike Diane Demiana Eudoksia Eunike Ese Fibruniyah Gerges Zoe Thekla Thekle Kleopatra Kleupatra Kouloche Mariam Potamiana Salome 
+			Ilisabek Kattrin Sara Sarra Taphamoun Upateia Chemmahor Lucra Ourt Paphnutia Tanoute
+		}   
+	#https://en.wiktionary.org/wiki/Category:Coptic_prefixes
+	dynasty_of_location_prefix = "dynnp_ma"
+	
+	# https://en.wiktionary.org/wiki/Category:Coptic_prefixes
+	patronym_prefix_male = "dynnp_sa"
+
+}
+#https://www.behindthename.com/submit/names/usage/coptic https://en.wiktionary.org/wiki/Category:Coptic_given_names

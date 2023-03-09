@@ -1,0 +1,58 @@
+﻿		
+kemetic = {
+	color = hsv { 0.15  1  0.7 }
+	name_list = name_list_kemetic
+	heritage = heritage_kemetic
+	language = language_kemetic
+	martial_custom = martial_custom_male_only
+
+	ethos = ethos_bureaucratic
+	
+	traditions = {
+		tradition_warriors_of_the_dry
+		tradition_hard_working 
+        tradition_agrarian
+		tradition_zealous_people
+		tradition_land_of_the_bow
+	}
+
+	ethnicities = {
+		10 = arab
+		5 = east_african
+	}
+
+	coa_gfx = { berber_group_coa_gfx  }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+}
+
+coptic = {
+	parents = { greek kemetic }
+	created =  150.1.1 
+	color = { 210 235 87 }
+	name_list = name_list_coptic
+	heritage = heritage_byzantine
+	language = language_coptic
+	martial_custom = martial_custom_male_only
+
+	ethos = ethos_spiritual
+	
+	traditions = {
+		tradition_warriors_of_the_dry
+		tradition_faith_bound 
+        tradition_agrarian
+		tradition_zealous_people
+		tradition_monastic_communities
+	}
+
+	ethnicities = {
+		10 = arab
+		2 = east_african		
+	}
+
+	coa_gfx = { berber_group_coa_gfx byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx mena_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { byzantine_unit_gfx }
+}

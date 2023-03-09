@@ -1,0 +1,15 @@
+﻿l_english:
+
+ 
+
+ duke_feudal_male_kemetic:100 "Heri-Tep-Aa" 
+ duke_feudal_female_kemetic:100 "Heri-Tep-Aa"
+ duchy_feudal_kemetic:100 "Sepat"
+ duke_feudal_independent_kemetic:100 "Nesut-Biti" 
+ duke_feudal_independent_female_kemetic:100 "Nebty" 
+ king_feudal_male_kemetic:100 "Pharaoh" 
+ king_feudal_female_kemetic:100 "Pharaoh" 
+ kingdom_feudal_kemetic:100 "Kingdom"
+ emperor_feudal_male_kemetic:0 "Great Pharaoh" 
+ emperor_feudal_female_kemetic:0 "Great Pharaoh"
+ empire_feudal_kemetic:0 "Pharaonic Empire"
