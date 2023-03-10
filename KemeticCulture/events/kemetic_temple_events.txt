@@ -1,0 +1,107 @@
+namespace = building_egyptian_tomb_event
+
+
+
+
+
+
+building_egyptian_tomb_event.1 = {
+	type = character_event
+	title = building_egyptian_tomb_event.1.t
+	desc = {
+		triggered_desc = {
+			desc = mummification_event.1.desc
+		}
+	}
+	theme = faith
+	override_background = {
+		event_background = temple
+	}
+
+	left_portrait = {
+		character = var:commissioned_egyptian_tomb
+	}
+	right_portrait = {
+		character = court_chaplin
+	}
+	
+	option = {
+		name = mummification_event.2.a
+	}
+
+	after = {
+		set_variable = {
+			name = mummifying_ancestor
+		}
+		trigger_event = {
+			id = mummification_event.3
+			days = { 35 70 }
+		}
+	}
+}
+
+mummification_event.3 = {
+	type = character_event
+	title = mummification_event.3.t
+	desc = {
+		triggered_desc = {
+			desc = mummification_event.3.desc
+		}
+	}
+	theme = faith
+	override_background = {
+		trigger = {
+			NOR = {
+				namelist = { kemetic_namelist }
+			}
+		}
+		event_background = wilderness
+	}
+	override_background = {
+		trigger = {
+			OR = {
+				namelist = { kemetic_namelist }
+			}
+		}
+		event_background = temple
+	}
+
+	left_portrait = {
+		character = var:ROOT
+	}
+
+	immediate = {
+		add_piety = major_piety_value
+		if = {
+			limit = {
+				any_vassal = {
+					faith = {
+						has_doctrine_parameter = mummification_active
+					}
+				}
+			}
+			every_vassal = {
+				limit = {
+					faith = {
+						has_doctrine_parameter = mummification_active
+					}
+				}
+				custom = mummify_ancestor_vassals
+				add_opinion = {
+					modifier = pleased_opinion
+					target = root
+					opinion = 20
+				}
+			}
+		}
+	}
+
+	option = {
+		name = mummification_event.3.a
+	}
+	after = {
+		remove_variable = ancestor_to_bury
+		remove_variable = mummifying_ancestor
+	}
+}
+

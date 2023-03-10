@@ -37,6 +37,9 @@
 		}
 
 		piety_cost = faith_tenet_cost_mid
+		traits = {
+			sins = { callous }
+		}
 	}
 
 	tenet_egyptian_magic = {
@@ -56,14 +59,14 @@
 		}
 
 		traits = {
-			virtues = { lifestyle_mystic witch }
+			virtues = { lifestyle_mystic trait_witch }
 			sins = { cynical }
 		}
 
 		parameters = {
 			piety_from_feasts_active = yes
-			mandatory_feast_attendance = yes
 			tenet_esotericism_mystic_education = yes
+			spirit_possession_active = yes
 		}
 	}
 
