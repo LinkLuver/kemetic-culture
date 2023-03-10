@@ -17,13 +17,6 @@ mummify_ancestor_decision = {
 		NOT = { has_variable = mummifying_ancestor }
 	}
 
-	is_valid = {
-	}
-
-	is_valid_showing_failures_only = {
-
-	}
-
 	effect = {
 		show_as_tooltip = {
 			add_piety = major_piety_value
@@ -50,7 +43,7 @@ mummify_ancestor_decision = {
 				}
 			}
 		}
-		trigger_event = mummification_event.1
+		trigger_event = mummification_event.2
 	}
 
 	ai_check_interval = 36
