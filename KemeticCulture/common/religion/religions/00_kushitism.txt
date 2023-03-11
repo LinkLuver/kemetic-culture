@@ -438,10 +438,155 @@ localization = {
     GHWNamePlural = ghw_great_holy_wars
 }
 		}
-	}
 
+	atenism= {
+		color = { 0.8 0.2 0.1 }
+		icon = zunist_custom
 
+        religious_head = c_qus
 
+        holy_site = akhetaten
+        holy_site = alexandria
+        holy_site = thebes
+        holy_site = memphis
+        holy_site = hermopolis_magna
 
+		doctrine = reformed_faith_doctrine
 
+		doctrine = tenet_mummification
+		doctrine = tenet_divine_marriage
+		doctrine = tenet_sun_worship
+		#Main Group
+
+doctrine = doctrine_temporal_head
+doctrine = doctrine_gender_male_dominated
+doctrine = doctrine_pluralism_zealous
+doctrine = doctrine_theocracy_lay_clergy
+
+#Marriage
+doctrine = doctrine_polygamy
+doctrine = doctrine_divorce_allowed
+doctrine = doctrine_bastardry_legitimization
+doctrine = doctrine_consanguinity_unrestricted
+
+#Crimes
+doctrine = doctrine_homosexuality_accepted
+doctrine = doctrine_adultery_men_shunned
+doctrine = doctrine_adultery_women_shunned
+doctrine = doctrine_kinslaying_close_kin_crime
+doctrine = doctrine_deviancy_accepted
+doctrine = doctrine_witchcraft_shunned
+
+#Clerical Functions
+doctrine = doctrine_clerical_function_taxation
+doctrine = doctrine_clerical_gender_either
+doctrine = doctrine_clerical_marriage_allowed
+doctrine = doctrine_clerical_succession_temporal_appointment
+
+traits = {
+virtues = { wrathful diligent ambitious zealous }
+sins = {  lazy content gluttonous }
 }
+
+holy_order_names = {
+{ name = "holy_order_servants_of_Ra-Hor" }
+{ name = "holy_order_defenders_of_the_Aten" }
+{ name = "holy_order_maat_warriors" }
+}
+
+custom_faith_icons = {
+custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s
+}
+
+localization = {
+HighGodName = atenism_high_god_name
+HighGodName2 = atenism_high_god_name_2
+HighGodNamePossessive = atenism_high_god_name_possessive
+HighGodNameSheHe = CHARACTER_SHEHE_HE
+HighGodHerselfHimself = CHARACTER_HIMSELF
+HighGodHerHis = CHARACTER_HERHIS_HIS
+HighGodNameAlternate = atenism_high_god_name_alternate
+HighGodNameAlternatePossessive = atenism_high_god_name_alternate_possessive
+
+#Creator
+CreatorName = atenism_creator_god_name
+CreatorNamePossessive = atenism_creator_god_name_possessive
+CreatorSheHe = CHARACTER_SHEHE_HE
+CreatorHerHis = CHARACTER_HERHIM_HIM
+CreatorHerHim = CHARACTER_HERHIS_HIS
+
+
+PantheonTerm = religion_the_aten
+PantheonTerm2 = religion_the_aten
+PantheonTerm3 = religion_the_aten
+PantheonTermHasHave = religion_the_aten_have
+GoodGodNames = { atenism_god_the_aten atenism_god_re_hor }
+DevilName = kemetism_devil_name
+DevilNamePossessive = kemetism_devil_name_possessive
+DevilSheHe = CHARACTER_SHEHE_HE
+DevilHerHis = CHARACTER_HERHIS_HIS
+DevilHerselfHimself = CHARACTER_HIMSELF
+EvilGodNames = { kemetism_evil_god_kek kemetism_evil_god_amheh }
+HouseOfWorship = paganism_house_of_worship
+HouseOfWorship2 = paganism_house_of_worship_2
+HouseOfWorship3 = paganism_house_of_worship_3
+HouseOfWorshipPlural = paganism_house_of_worship_plural
+ReligiousSymbol = kemetism_religious_symbol
+ReligiousSymbol2 = kemetism_religious_symbol_2
+ReligiousSymbol3 = kemetism_religious_symbol_3
+ReligiousText = paganism_religious_text
+ReligiousText2 = paganism_religious_text_2
+ReligiousText3 = paganism_religious_text_3
+ReligiousHeadName = atenism_religious_head_title
+ReligiousHeadTitleName = atenism_religious_head_title_name
+DevoteeMale = paganism_devotee
+DevoteeMalePlural = paganism_devoteeplural
+DevoteeFemale = paganism_devotee
+DevoteeFemalePlural = paganism_devoteeplural
+DevoteeNeuter = paganism_devotee
+DevoteeNeuterPlural = paganism_devoteeplural
+PriestMale = kemetism_priest_male
+PriestMalePlural = kemetism_priest_male_plural
+PriestFemale = kemetism_priest_male
+PriestFemalePlural = kemetism_priest_male_plural
+PriestNeuter = kemetism_priest_male
+PriestNeuterPlural = kemetism_priest_male_plural
+AltPriestTermPlural = paganism_priest_alternate_plural
+BishopMale = kemetism_priest_male
+BishopMalePlural = kemetism_priest_male_plural
+BishopFemale = kemetism_priest_male
+BishopFemalePlural = kemetism_priest_male_plural
+BishopNeuter = kemetism_priest_male
+BishopNeuterPlural = kemetism_priest_male_plural
+DivineRealm = kemetism_divine_realm
+DivineRealm2 = kemetism_divine_realm_2
+DivineRealm3 = kemetism_divine_realm_3
+PositiveAfterLife = kemetism_divine_realm
+PositiveAfterLife2 = kemetism_divine_realm_2
+PositiveAfterLife3 = kemetism_divine_realm_3
+NegativeAfterLife = kemetism_divine_realm
+NegativeAfterLife2 = kemetism_divine_realm_2
+NegativeAfterLife3 = kemetism_divine_realm_3
+DeathDeityName = kemetism_death_god_name
+DeathDeityNamePossessive = kemetism_death_god_name_possessive
+DeathDeitySheHe = CHARACTER_SHEHE_HE
+DeathDeityHerHis = CHARACTER_HERHIS_HIS
+WitchGodName = kemetism_witchgodname_heket
+WitchGodNamePossessive = kemetism_witchgodname_heket_possessive    
+WitchGodHerHis = CHARACTER_HERHIS_HER
+WitchGodSheHe = CHARACTER_SHEHE_SHE
+WitchGodHerHim = CHARACTER_HERHIM_HER
+WitchGodMistressMaster = mistress
+WitchGodMotherFather = mother
+
+GHWName = ghw_great_holy_war
+GHWNamePlural = ghw_great_holy_wars
+}
+	}
+	
+}
+}
+
+
+
+

@@ -75,3 +75,31 @@ holy_order_maat_warriors:0 "Ma'at Warriors"
 
 kushitism_religion:0 "Nilotic"
 kushitism_religion_adj:0 "Nilotic"
+
+atenism:0 "Atenism"
+atenism_adj:0 "Atenist"
+atenism_adherent:0 "Atenist"
+atenism_adherent_plural:0 "Atenists"
+atenism_desc:0 "Atenism is one of the earliest known monotheistic religions. Formed by the Pharaoh Amenotep IV (renaming himself as the Son of The Aten, Atkenaten), the religion which started as a cult centered around the Aten, or Re-Hor, was a temporal faith in which only the Aten, and his earthly representative, were to be worshiped."
+
+holy_order_servants_of_Ra-Hor:0 "Servants of Ra-Hor"
+holy_order_defenders_of_the_Aten:0 "Defenders of The Aten"
+
+atenism_high_god_name:0 "Ra-Hor"
+atenism_high_god_name_2:0 "Aten"
+atenism_high_god_name_possessive:0 "Ra-Hor's"
+
+atenism_high_god_name_alternate:0 "The Aten"
+atenism_high_god_name_alternate_possessive:0 "The Aten's"
+
+atenism_creator_god_name:0 "Aten"
+atenism_creator_god_name_possessive:0 "Aten's"
+
+religion_the_aten:0 "The Aten"
+religion_the_aten_have:0 "The Aten has"
+
+atenism_god_the_aten:0 "Aten"
+atenism_god_re_hor:0 "Re-Hor"
+
+atenism_religious_head_title:0 "Guardianship of the Aten"
+atenism_religious_head_title_name:0 "Pharaoh-Atkhenaten"

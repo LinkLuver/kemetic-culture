@@ -11,19 +11,31 @@ name_list_coptic = {
 			dynn_La_Parmouti dynn_La_Pashons dynn_La_Paoni dynn_La_Epip dynn_La_Mesori dynn_Mn_Akhet dynn_Mn_Proyet dynn_Mn_Shomu
 		}
 		male_names = {
-            Abonah Agrippas Agrippinos Athom Athenodoros Athanasios Aleksandra Aleksandros Ammon Ammonios Amoun Amon Anoub Andronikos Andreas
-			Anastasios Antone Antoni Antinoos Antwnios Antiokhos Apollodoros Apollonios Apollotore Apaskhuron Apater Arkadios Aristoboulos
-			Aristos Aristophanes Askla Atoum Aurelios Akhilleue Apamoun Apanoub Biktor Bakkhos Bane Benipi Benofer Bartholomaios Bartholomeos Barnabas Bes
-			Besa Besamon Gabriel Gennadios Germanikos Germanos Gaios Diodoros Dioklas Diomedes Damianos Demetrios Diometes Diwnesios Dios
-			Dioskoros Dauid Ebonh Ethom Epiphaneios Epiphanios Ermodoros Ermoklas Ermokrates Eudaimon Eudoros Eumenes Eutropios Efonx Zenon
-			Eraklas Theodoros Thekla Thekle Theon Thetmosi Theophilos Ioannes Ieraklas Ierakos Ieraks Isidoros Iosep Ioseph Ioulianos
-			Ioustinianos Ioustinos Iohannes Kellouch Kleomenes Kleopatros Klaudios Kalashire Konstantinos Kuriakos Kurillos Kornelios Keros Kosmas
-			Kuros Leonidas Men Mena Menrit Merkourios Markos Moris Mikhael Nikolaos Niran Nahroou Onnophris Onorios Papnoute Pamoun Ploutonios Pambo Pimen
-			Poimen Panikuros Panipan Paape Poplios Periklas Priskos Parsoma Perseus Piroou Paesi Posidonios Pisthani Pesunthios Ptolemaios Pennouti Pishoy
-			Patape Patroklas Patermouthios Patermoute Petros Petephre Paule Paulos Pausire Paphnouti Pishoi Pishennoufi Pashonti Paxom Panoub Psote Phnouti
-			Pichol Pichimi Pigol Psote Romanos Sidhom Skeirion Sokrates Sarapamon Shenouda Tiberios Traiane Traianos Titoue Taho Techi Ouenofre Ouriel Ouershenoufi
-			Phib Phoibammon Phoibos Philippos Philopator Phlaubios Phlaouios Phanios Phaesi Phausta Phaustos Kharakhte Psahte Psati Shenouti Usire
-			Houthmen Hol Hor Hermogenes Harmine Hermauos Hieraks Horsiese Horsiesi Herwoch Chimous Chichoi Chicoi Calashire Cishoi Cichoi Tawadros
+			50 = {
+			Athom Abonah Ammon Amoun Amon Anoub Apaskhuron Atoum Apamoun Apanoub Apater Askla Bane Benipi Benofer Bes Besa Besamon Ethom Ebonh Efonx 
+			Menrit Kharakhte Sarapamon Shenouda Shenouti Pennouti Pishoy Panoub Psote Phnouti Harmine Herwoch Hol Hor Horsiese Horsiesi Calashire Titoue
+			Papnoute Pamoun Ouershenoufi Ouenofre Kalashire Niran Nahroou Paphnouti Pishoi Pishennoufi Pashonti Paxom Paape Piroou Paesi
+			Pambo Panipan Patape Patermoute Pausire Petephre Pichimi Pichol Pisthani Phaesi Phib Psahte Psati Pigol Psote  Chichoi Chicoi Cishoi 
+			Cichoi Usire Techi
+			}
+            30 = {
+			Gabriel Dauid Nikolaos Paule Paulos Bartholomaios Bartholomeos Iosep Ioseph Mikhael Markos Kuros Ouriel Ioannes Iohannes Petros Parsoma
+			}
+			20 = {
+            Agrippas Agrippinos Athenodoros Athanasios Aleksandra Aleksandros Ammonios Andronikos Andreas
+			Anastasios Antone Antoni Antinoos Antonios Antiokhos Apollodoros Apollonios Apollotore Arkadios Aristoboulos
+			Aristos Aristophanes Aurelios Akhilleue Biktor Bakkhos Barnabas
+			Gennadios Germanikos Germanos Gaios Diodoros Dioklas Diomedes Damianos Demetrios Diometes Dionesios Dios
+			Dioskoros Epiphaneios Epiphanios Ermodoros Ermoklas Ermokrates Eudaimon Eudoros Eumenes Eutropios Zenon
+			Eraklas Theodoros Thekla Thekle Theon Thetmosi Theophilos Ieraklas Ierakos Ieraks Isidoros Ioulianos
+			Ioustinianos Ioustinos Kellouch Kleomenes Kleopatros Klaudios Konstantinos Kuriakos Kurillos Kornelios Keros Kosmas
+			Leonidas Merkourios Moris Men Mena Onnophris Onorios Ploutonios Pimen
+			Poimen Panikuros Poplios Periklas Priskos Perseus Posidonios Pesunthios Ptolemaios
+			Patroklas Patermouthios
+			Romanos Sidhom Skeirion Sokrates Tiberios Traiane Traianos Taho
+			Phoibammon Phoibos Philippos Philopator Phlaubios Phlaouios Phanios Phausta Phaustos
+			Houthmen Hermogenes Hermauos Hieraks Chimous Tawadros
+			}
 		}
 		female_names = {
             Arisone Anthelia Berenike Diane Demiana Eudoksia Eunike Ese Fibruniyah Gerges Zoe Thekla Thekle Kleopatra Kleupatra Kouloche Mariam Potamiana Salome 
