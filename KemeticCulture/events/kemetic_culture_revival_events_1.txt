@@ -1,0 +1,294 @@
+﻿namespace = kemetic_revival_event
+
+kemetic_revival_event.1 = { #whispers of the nile
+title = kemetic_revival_event.1.t
+desc = kemetic_revival_event.1.desc
+
+left_portrait = {
+	character = root
+	animation = idle
+}
+theme = hunting
+override_background = {
+	event_background = wilderness_desert
+}
+
+trigger_if = {
+    AND = {
+    is_ai = no
+	NOT = {
+		OR = {
+			has_variable =  searched_for_the_pharaohs_tombs 
+			has_global_variable = ancient_egyptian_tomb_found 
+		}
+	}
+	any_held_county = { 
+	    AND = {
+		    geographical_region = custom_roman_aegyptus
+		}
+	}
+
+	OR = {
+		AND = {
+		OR ={
+		knows_language = language_coptic
+		knows_language = language_kemetic
+		}
+		learning > 5
+		}
+		learning > 10
+	}
+	}
+chance_to_happen = 25
+}
+option = {
+	name = kemetic_revival_event.1.a #
+		random_list = {
+			25 = {
+				trigger_event = {
+					id = kemetic_revival_event.3
+					days = { 30 100 }
+				}
+				modifier = {
+					add = 20
+					learning > 10
+				}
+				modifier = {
+					add = 30
+					learning > 15
+				}
+				modifier = {
+					add = 40
+					learning > 20
+				}
+				modifier = {
+					add = 50
+					learning > 30
+				}
+
+			}
+			75 = {
+				trigger_event = {
+					id = kemetic_revival_event.2
+					days = { 30 100 }
+				}	
+			}
+		}
+}
+
+option = {
+	name = kemetic_revival_event.1.b #what a waste of time!
+		set_variable = { 
+			name = searched_for_the_pharaohs_tombs 
+			value = root
+		}       #set_global_variable = { name = ancient_egyptian_tomb_found  value = flag:ancient_egyptian_tomb_found } 
+}
+
+}
+
+kemetic_revival_event.2 = { #faliure to find tomb
+title = kemetic_revival_event.2.t
+desc = kemetic_revival_event.2.desc
+
+left_portrait = {
+	character = root
+	animations = sadness
+}
+theme = hunting
+override_background = {
+	event_background = wilderness_desert
+}
+
+option = {
+	name = kemetic_revival_event.2.a
+		add_prestige = -100 
+		set_variable = { 
+			name = searched_for_the_pharaohs_tombs 
+			value = root
+		}       #set_global_variable = { name = ancient_egyptian_tomb_found  value = flag:ancient_egyptian_tomb_found }  
+}
+
+}
+
+kemetic_revival_event.3 = { #A tomb has been discovered!
+title = kemetic_revival_event.3.t
+desc = kemetic_revival_event.3.desc
+
+left_portrait = {
+	character = root
+	animations = ecstasy
+}
+theme = hunting
+override_background = {
+	event_background = dungeon
+}
+immediate = {
+	set_global_variable = { 
+		name = ancient_egyptian_tomb_found
+    } 
+	set_variable = { 
+		name = searched_for_the_pharaohs_tombs 
+		value = root
+	}  
+}
+
+option = { # Interesting, but this wealth will serve we well enough!
+	name = kemetic_revival_event.3.a
+		add_prestige = 350 
+		add_cash = 50
+}
+option = { # I wonder if these glyphs can be discyphered!
+		trigger_if = {
+			AND = {
+				OR ={
+					knows_language = language_coptic
+					knows_language = language_kemetic
+					}
+				learning > 10
+				any_learning_councillor = {                  
+						learning > 15
+					}
+				}		
+			}
+
+		}
+		trigger_else = {
+			AND = {
+				OR ={
+					knows_language = language_coptic
+					knows_language = language_kemetic
+					}
+				learning > 20
+			    }	
+		}
+		trigger_else = {
+			AND = {
+				any_learning_councillor = { 
+                    learning > 20
+				}
+				learning > 25
+			}
+		}
+		trigger_else = {
+		AND = {
+		    	any_learning_councillor = { 
+				    AND = {
+				    	OR ={
+				    		knows_language = language_coptic
+				    		knows_language = language_kemetic
+			      			}
+				    	learning > 10
+				    }
+			    }
+			    learning > 20
+		    }	
+	    }
+		trigger_else = {
+			AND = {
+					any_learning_councillor = { 
+						AND = {
+							OR ={
+								knows_language = language_coptic
+								knows_language = language_kemetic
+								}
+							learning > 15
+						}
+					}
+					learning > 10
+				}	
+			}
+	name = kemetic_revival_event.3.b
+	desc = kemetic_revival_event.3.b.desc
+		add_cash = -50
+		trigger_event = {
+            id = kemetic_revival_event.4
+			days = { 10 40 }
+		} 
+}
+
+kemetic_revival_event.4 = { #Diciphering the heiroglyphs
+title = kemetic_revival_event.4.t 
+desc = kemetic_revival_event.4.desc
+left_portrait = {
+	character = root
+	portrait_animation = personality_rational
+}
+right_portrait = {
+	character = councillor_court_chaplain
+	portrait_animation = stewardship
+}
+    theme = learning
+	override_background = {
+		event_background = dungeon
+	}
+option = {
+	name = kemetic_revival_event.4.a #this has been a waste of time
+    prestige = -50 
+}
+option = {
+	name = kemetic_revival_event.4.b #let's keep trying
+	add_stress = 25
+		random_list = {
+			70 = {
+				trigger_event = {
+					kemetic_revival_event.5
+				}
+			}
+			30 = {
+				if = {
+					limit =  { knows_language = coptic_language }
+						trigger_event = {
+							id = kemetic_revival_event.7
+							days = { 30 100 }
+					}
+				}
+				else = {
+					trigger_event = {
+						id = kemetic_revival_event.6
+						days = { 30 50 }
+					}
+				}
+				modifier = {
+					add = 10
+                    learning > 10
+				}
+				modifier = {
+					add = 15
+                    learning > 20
+				}
+				modifier = {
+					add = 10
+                    any_learning_councillor = { learning > 10 }
+				}
+				modifier = {
+					add = 15
+                    any_learning_councillor = { learning > 20 }
+				}
+				modifier = {
+					add = 10
+                    any_learning_councillor = { knows_language = language_coptic }
+				}
+				modifier = {
+					add = 10
+                    knows_language = language_coptic 
+				}
+				modifier = {
+					add = 15
+					OR = {
+						has_trait = lifestyle_mystic
+						has_trait = scholar
+					}
+				}
+				modifier = {
+					add = 15
+                    any_learning_councillor = { 
+						OR = { 
+							has_trait = scholar 
+							has_trait = lifestyle_mystic 
+						} 
+					}
+				}
+			}
+	   }
+    }
+}

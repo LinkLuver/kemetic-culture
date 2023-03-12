@@ -1,4 +1,4 @@
-@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+﻿@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
 
 # Culture-Specific Innovations
 innovation_nile_transportation = {

@@ -1,0 +1,82 @@
+﻿namespace = kemetic_revival_event
+
+kemetic_revival_event.5 = { #Faliure to dicipher the glyphs
+title = kemetic_revival_event.5.t 
+desc = kemetic_revival_event.5.desc
+left_portrait = {
+	character = root
+	portrait_animation = sadness
+}
+right_portrait = {
+	character = councillor_court_chaplain
+	portrait_animation = sadness
+}
+theme = learning
+override_background = {
+	event_background = study
+}
+immediate = {
+	add_prestige = -150
+}
+option = {
+	name = kemetic_revival_event.5.a #Oh well,
+		add_character_flag = failed_to_dicipher_heiroglyphs
+
+}
+}
+
+kemetic_revival_event.6 = { # discovering coptic
+title = kemetic_revival_event.6.t 
+desc = kemetic_revival_event.6.desc
+left_portrait = {
+	character = root
+	portrait_animation = happiness
+}
+theme = learning
+override_background = {
+	event_background = study
+}
+option = {
+    name = kemetic_revival_event.6.a
+		learn_language = { coptic_language }
+		trigger_event = {
+			id = kemetic_revival_event.7
+			days = { 30 100 }
+		}
+}
+
+}
+
+kemetic_revival_event.7 = { #heiroglyphs diciphered!
+title = kemetic_revival_event.7.t 
+desc = kemetic_revival_event.7.desc
+left_portrait = {
+	character = root
+	portrait_animation = throne_room_cheer_1
+}
+right_portrait = {
+	character = councillor_court_chaplain
+	portrait_animation = throne_room_cheer_2
+}
+theme = learning
+override_background = {
+	event_background = study
+}
+immediate = {
+	add_prestige = 350
+}
+option = {
+	name = kemetic_revival_event.7.a #learn kemetic
+		learn_language = { kemetic language }
+}
+option = {
+	name = kemetic_revival_event.7.b #adopt kemetic culture
+        set_culture = kemetic
+}
+
+}
+
+
+
+
+

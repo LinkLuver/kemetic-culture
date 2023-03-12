@@ -59,7 +59,7 @@
 		}
 
 		traits = {
-			virtues = { lifestyle_mystic trait_witch }
+			virtues = { lifestyle_mystic }
 			sins = { cynical }
 		}
 

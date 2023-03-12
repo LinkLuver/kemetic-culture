@@ -1,4 +1,4 @@
-
+﻿
 kushitism_religion = {
 	family = rf_pagan
 
@@ -236,7 +236,7 @@ kushitism_religion = {
 			holy_site = hermopolis_magna
 			holy_site = alexandria
 	
-			doctrine = reformed_faith_doctrine
+			doctrine = divine_destiny
 	
 			doctrine = tenet_mummification
 			doctrine = tenet_ancestor_worship
@@ -443,16 +443,14 @@ localization = {
 		color = { 0.8 0.2 0.1 }
 		icon = zunist_custom
 
-        religious_head = c_qus
-
         holy_site = akhetaten
         holy_site = alexandria
         holy_site = thebes
         holy_site = memphis
         holy_site = hermopolis_magna
 
-		doctrine = reformed_faith_doctrine
-
+		doctrine = divine_destiny
+		
 		doctrine = tenet_mummification
 		doctrine = tenet_divine_marriage
 		doctrine = tenet_sun_worship

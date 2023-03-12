@@ -1,4 +1,4 @@
-namespace = mummification_event
+﻿namespace = mummification_event
 
 
 mummification_event.1 = {
@@ -50,7 +50,7 @@ mummification_event.2 = {
 	theme = faith
 	override_background = {
 		trigger = {
-			NOR = {
+			NOT = {
 				namelist = { kemetic_namelist }
 			}
 		}
@@ -58,9 +58,7 @@ mummification_event.2 = {
 	}
 	override_background = {
 		trigger = {
-			OR = {
 				namelist = { kemetic_namelist }
-			}
 		}
 		event_background = temple
 	}
@@ -101,7 +99,7 @@ mummification_event.3 = {
 	theme = faith
 	override_background = {
 		trigger = {
-			NOR = {
+			NOT = {
 				namelist = { kemetic_namelist }
 			}
 		}
@@ -109,15 +107,19 @@ mummification_event.3 = {
 	}
 	override_background = {
 		trigger = {
-			OR = {
 				namelist = { kemetic_namelist }
-			}
 		}
 		event_background = temple
 	}
 
 	left_portrait = {
 		character = var:ROOT
+	}
+	right_portrait = {
+		character = councillor_court_chaplain
+	}
+	bottom_right_portrait = {
+		character = ROOT.Var('ancestor_to_bury').Char
 	}
 
 	immediate = {
