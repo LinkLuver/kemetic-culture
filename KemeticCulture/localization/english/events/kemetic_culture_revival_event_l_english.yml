@@ -12,29 +12,29 @@ kemetic_revival_event.3.desc:0 "After days of wandering about in the dry wildern
 kemetic_revival_event.3.a:0 "These treasures will serve me well!"
 kemetic_revival_event.3.b:0 "I wonder if these glyphs can be diciphered?"
 kemetic_revival_event.4.t:0 "Cryptic Messages"
-kemetic_revival_event.4.desc:0 "Having traced copies of the glyphs from their desert tomb, I have made it my mission to uncover the secrets of these ancient Egyptians. My [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName], [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetFirstName], has been helping me try to dicipher what these glyphs could mean. Are they an undicovered language? A code of dates? Only one thing is sure, that this will take a long time to figure out."
+kemetic_revival_event.4.desc:0 "Having traced copies of the glyphs from their desert tomb, I have made it my mission to uncover the secrets of these ancient Egyptians. My [court_chaplain.GetCouncilTitle], [court_chaplain.GetFirstName], has been helping me try to dicipher what these glyphs could mean. Are they an undicovered language? A code of dates? Only one thing is sure, that this will take a long time to figure out."
 kemetic_revival_event.4.a:0 "This has been a waste of time"
 kemetic_revival_event.4.b:0 "Let's keep trying"
 kemetic_revival_event.5.t:0 "Undicipherable"
-kemetic_revival_event.5.desc:0 "After months of trying, both me and [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetFirstName] have made little progress. Now that other matters call my attention, I can no longer afford to waste any more time or resouces on this folly."
+kemetic_revival_event.5.desc:0 "After months of trying, both me and [court_chaplain.GetFirstName] have made little progress. Now that other matters call my attention, I can no longer afford to waste any more time or resouces on this folly."
 kemetic_revival_event.5.a:0 "Oh well"
 kemetic_revival_event.6.t:0 "A helpful Tounge"
-kemetic_revival_event.6.desc:0 "Looking for a missing link to this ancient civilization, my [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] has suggested that there may be links between the ancient inhabitants of these lands, and those who lived here before us, the Copts. In a bid to see if there culture may help me better understand these glyphs, I have painstakingly devoted myself to learning their language. Is it possible that this tounge may be connected to the contents of this ancient script?"
+kemetic_revival_event.6.desc:0 "Looking for a missing link to this ancient civilization, my [court_chaplain.GetCouncilTitle] has suggested that there may be links between the ancient inhabitants of these lands, and those who lived here before us, the Copts. In a bid to see if there culture may help me better understand these glyphs, I have painstakingly devoted myself to learning their language. Is it possible that this tounge may be connected to the contents of this ancient script?"
 kemetic_revival_event.6.a: "Is this the key?"
 kemetic_revival_event.7.t:0 "Eureka!"
 kemetic_revival_event.7.desc:0 "We've done it! After comparing texts of these Heiroglyphs with the coptic language (and a helpful text of papyrus, filled with both an easier version of these glyphs, and with a primative form of Greek) we have managed to crack the code of this ancient language! So much information on this ancient civilization has been unlocked, their beliefs, their ways of life, their history, I can understand it all!"
 kemetic_revival_event.7.a:0 "What a wonderful language!"
 kemetic_revival_event.7.b:0 "What if I adopted these ancient ways as my own?"
 
-kemetic_revival_event.1.a.desc:0 "You start looking for ancient structures" #You start looking for ancient structures
-kemetic_revival_event.1.b.desc:0 "You carry on with your life as usual" #You carry on with your life as usual
-kemetic_revival_event.2.a.desc:0 "You return home" #You return home
-kemetic_revival_event.3.a.desc:0 "You return home, pockets full" #You return home, pockets full
-kemetic_revival_event.3.b.desc:0 "You start investigating the strange glyphs" #You start investigating the strange glyphs
-kemetic_revival_event.4.a.desc:0 "You give up" #You give up
-kemetic_revival_event.4.b.desc:0 "You continue to try dicipering the glyphs" #You continue to try dicipering the glyphs
-kemetic_revival_event.5.a.desc:0 "You have failed to dicipher the glyphs" #You have failed to dicipher the glyphs
-kemetic_revival_event.6.a.desc:0 "you have learned the Coptic language" #you have learned the coptic language
-kemetic_revival_event.7.a.desc:0 "You learn the Kemetic language" #You learn the kemetic language
-kemetic_revival_event.7.a.desc:0 "You adopt the Kemetic culture" #You adopt the Kemetic culture
+kemetic_revival_event.1.adesc:0 "You start looking for ancient structures" #You start looking for ancient structures
+kemetic_revival_event.1.bdesc:0 "You carry on with your life as usual" #You carry on with your life as usual
+kemetic_revival_event.2.adesc:0 "You return home" #You return home
+kemetic_revival_event.3.adesc:0 "You return home, pockets full" #You return home, pockets full
+kemetic_revival_event.3.bdesc:0 "You start investigating the strange glyphs" #You start investigating the strange glyphs
+kemetic_revival_event.4.adesc:0 "You give up" #You give up
+kemetic_revival_event.4.bdesc:0 "You continue to try dicipering the glyphs" #You continue to try dicipering the glyphs
+kemetic_revival_event.5.adesc:0 "You have failed to dicipher the glyphs" #You have failed to dicipher the glyphs
+kemetic_revival_event.6.adesc:0 "you have learned the Coptic language" #you have learned the coptic language
+kemetic_revival_event.7.adesc:0 "You learn the Kemetic language" #You learn the kemetic language
+kemetic_revival_event.7.bdesc:0 "You adopt the Kemetic culture" #You adopt the Kemetic culture
 

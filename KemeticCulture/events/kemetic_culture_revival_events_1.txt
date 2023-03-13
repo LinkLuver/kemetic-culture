@@ -42,7 +42,7 @@ trigger_if = {
 }
 option = {
 	name = kemetic_revival_event.1.a #
-	desc = kemetic_revival_event.1.a.desc #You start looking for ancient structures
+	desc = kemetic_revival_event.1.adesc #You start looking for ancient structures
 		random_list = {
 			hide = yes
 			25 = {
@@ -112,7 +112,7 @@ immediate = {
 }
 option = {
 	name = kemetic_revival_event.2.a
-	desc = kemetic_revival_event.2.a.desc #You return home
+	desc = kemetic_revival_event.2.adesc #You return home
 		add_prestige = -100 
 		set_variable = { 
 			name = searched_for_the_pharaohs_tombs 
@@ -147,7 +147,7 @@ immediate = {
 
 option = { # Interesting, but this wealth will serve we well enough!
 	name = kemetic_revival_event.3.a
-	desc = kemetic_revival_event.3.a.desc #You return home, pockets full
+	desc = kemetic_revival_event.3.adesc #You return home, pockets full
 		add_prestige = 350 
 }
 option = { # I wonder if these glyphs can be discyphered!
@@ -236,23 +236,24 @@ right_portrait = {
 	}
 option = {
 	name = kemetic_revival_event.4.a #this has been a waste of time
-	desc = kemetic_revival_event.4.a.desc #You give up
+	desc = kemetic_revival_event.4.adesc #You give up
     prestige = -50 
 }
 option = {
 	name = kemetic_revival_event.4.b #let's keep trying
-	desc = kemetic_revival_event.4.b.desc #You continue to try dicipering the glyphs
+	desc = kemetic_revival_event.4.bdesc #You continue to try dicipering the glyphs
 	add_stress = 25
 		random_list = {
 			70 = {
 				trigger_event = {
-					kemetic_revival_event.5
+					id = kemetic_revival_event.5
+					days = { 30 50 }
 				}
 			}
 			30 = {
-						trigger_event = {
-							id = kemetic_revival_event.8
-							days = { 30 50 }
+				trigger_event = {
+					id = kemetic_revival_event.8
+					days = { 30 50 }
 				modifier = {
 					add = 10
                     learning > 10
@@ -296,6 +297,7 @@ option = {
 			}
 	   }
     }
+}
 }
 
 

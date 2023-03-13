@@ -28,7 +28,7 @@ immediate = {
 }
 option = {
 	name = kemetic_revival_event.5.a #Oh well,
-	desc = kemetic_revival_event.5.a.desc #You have failed to dicipher the glyphs
+	desc = kemetic_revival_event.5.adesc #You have failed to dicipher the glyphs
 		add_character_flag = failed_to_dicipher_heiroglyphs
 }
 }
@@ -46,7 +46,7 @@ override_background = {
 }
 option = {
     name = kemetic_revival_event.6.a
-	desc = kemetic_revival_event.6.a.desc #you have learned the coptic language
+	desc = kemetic_revival_event.6.adesc #you have learned the coptic language
 	learn_language_of_culture = culture:coptic
 		trigger_event = {
 			id = kemetic_revival_event.7
@@ -76,12 +76,12 @@ immediate = {
 }
 option = {
 	name = kemetic_revival_event.7.a #learn kemetic
-	desc = kemetic_revival_event.7.a.desc #You learn the kemetic language
+	desc = kemetic_revival_event.7.adesc #You learn the kemetic language
 	learn_language_of_culture = culture:kemetic
 }
 option = {
 	name = kemetic_revival_event.7.b #adopt kemetic culture
-	desc = kemetic_revival_event.7.a.desc #You adopt the Kemetic culture
+	desc = kemetic_revival_event.7.bdesc #You adopt the Kemetic culture
     set_culture = culture:kemetic
 }
 
