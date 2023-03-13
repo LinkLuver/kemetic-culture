@@ -39,11 +39,12 @@ trigger_if = {
 		learning > 10
 	}
 	}
-chance_to_happen = 25
 }
 option = {
 	name = kemetic_revival_event.1.a #
+	desc = kemetic_revival_event.1.a.desc #You start looking for ancient structures
 		random_list = {
+			hide = yes
 			25 = {
 				trigger_event = {
 					id = kemetic_revival_event.3
@@ -78,6 +79,7 @@ option = {
 
 option = {
 	name = kemetic_revival_event.1.b #what a waste of time!
+	desc = kemetic_revival_event.1.b.desc #You carry on with your life as usual
 		set_variable = { 
 			name = searched_for_the_pharaohs_tombs 
 			value = root
@@ -98,9 +100,19 @@ theme = hunting
 override_background = {
 	event_background = wilderness_desert
 }
-
+immediate = {
+	if = {
+		limit = {
+			exists = cp:councillor_court_chaplain
+		}
+		cp:councillor_court_chaplain = {
+			save_scope_as = court_chaplain
+		}
+	}
+}
 option = {
 	name = kemetic_revival_event.2.a
+	desc = kemetic_revival_event.2.a.desc #You return home
 		add_prestige = -100 
 		set_variable = { 
 			name = searched_for_the_pharaohs_tombs 
@@ -123,6 +135,7 @@ override_background = {
 	event_background = dungeon
 }
 immediate = {
+	add_cash = 300
 	set_global_variable = { 
 		name = ancient_egyptian_tomb_found
     } 
@@ -134,10 +147,17 @@ immediate = {
 
 option = { # Interesting, but this wealth will serve we well enough!
 	name = kemetic_revival_event.3.a
+	desc = kemetic_revival_event.3.a.desc #You return home, pockets full
 		add_prestige = 350 
-		add_cash = 50
 }
 option = { # I wonder if these glyphs can be discyphered!
+name = kemetic_revival_event.3.b
+desc = kemetic_revival_event.3.b.desc #You start investigating the strange glyphs
+	add_cash = -100
+	trigger_event = {
+		id = kemetic_revival_event.4
+		days = { 10 40 }
+	} 
 		trigger_if = {
 			AND = {
 				OR ={
@@ -197,13 +217,6 @@ option = { # I wonder if these glyphs can be discyphered!
 					learning > 10
 				}	
 			}
-	name = kemetic_revival_event.3.b
-	desc = kemetic_revival_event.3.b.desc
-		add_cash = -50
-		trigger_event = {
-            id = kemetic_revival_event.4
-			days = { 10 40 }
-		} 
 }
 
 kemetic_revival_event.4 = { #Diciphering the heiroglyphs
@@ -214,7 +227,7 @@ left_portrait = {
 	portrait_animation = personality_rational
 }
 right_portrait = {
-	character = councillor_court_chaplain
+	character = scope:court_chaplain
 	portrait_animation = stewardship
 }
     theme = learning
@@ -223,10 +236,12 @@ right_portrait = {
 	}
 option = {
 	name = kemetic_revival_event.4.a #this has been a waste of time
+	desc = kemetic_revival_event.4.a.desc #You give up
     prestige = -50 
 }
 option = {
 	name = kemetic_revival_event.4.b #let's keep trying
+	desc = kemetic_revival_event.4.b.desc #You continue to try dicipering the glyphs
 	add_stress = 25
 		random_list = {
 			70 = {
@@ -235,19 +250,9 @@ option = {
 				}
 			}
 			30 = {
-				if = {
-					limit =  { knows_language = coptic_language }
 						trigger_event = {
-							id = kemetic_revival_event.7
-							days = { 30 100 }
-					}
-				}
-				else = {
-					trigger_event = {
-						id = kemetic_revival_event.6
-						days = { 30 50 }
-					}
-				}
+							id = kemetic_revival_event.8
+							days = { 30 50 }
 				modifier = {
 					add = 10
                     learning > 10
@@ -291,4 +296,25 @@ option = {
 			}
 	   }
     }
+}
+
+
+kemetic_revival_event.8 = {
+	hidden = yes
+	theme = hidden
+immediate = {
+	IF = {
+		limit = { knows_language = language_coptic }
+		trigger_event = {
+			id = kemetic_revival_event.7
+			days = { 50 100  }
+		}
+	}
+	ELSE = {
+		trigger_event = {
+			id = kemetic_revival_event.6
+			days = { 20 30 }
+		}
+	}
+}
 }

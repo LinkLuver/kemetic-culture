@@ -8,7 +8,7 @@ left_portrait = {
 	portrait_animation = sadness
 }
 right_portrait = {
-	character = councillor_court_chaplain
+	character = scope:court_chaplain
 	portrait_animation = sadness
 }
 theme = learning
@@ -17,11 +17,19 @@ override_background = {
 }
 immediate = {
 	add_prestige = -150
+		if = {
+			limit = {
+				exists = cp:councillor_court_chaplain
+			}
+			cp:councillor_court_chaplain = {
+				save_scope_as = court_chaplain
+			}
+		}
 }
 option = {
 	name = kemetic_revival_event.5.a #Oh well,
+	desc = kemetic_revival_event.5.a.desc #You have failed to dicipher the glyphs
 		add_character_flag = failed_to_dicipher_heiroglyphs
-
 }
 }
 
@@ -38,7 +46,8 @@ override_background = {
 }
 option = {
     name = kemetic_revival_event.6.a
-		learn_language = { coptic_language }
+	desc = kemetic_revival_event.6.a.desc #you have learned the coptic language
+	learn_language_of_culture = culture:coptic
 		trigger_event = {
 			id = kemetic_revival_event.7
 			days = { 30 100 }
@@ -55,7 +64,7 @@ left_portrait = {
 	portrait_animation = throne_room_cheer_1
 }
 right_portrait = {
-	character = councillor_court_chaplain
+	character = scope:court_chaplain
 	portrait_animation = throne_room_cheer_2
 }
 theme = learning
@@ -67,11 +76,13 @@ immediate = {
 }
 option = {
 	name = kemetic_revival_event.7.a #learn kemetic
-		learn_language = { kemetic language }
+	desc = kemetic_revival_event.7.a.desc #You learn the kemetic language
+	learn_language_of_culture = culture:kemetic
 }
 option = {
 	name = kemetic_revival_event.7.b #adopt kemetic culture
-        set_culture = kemetic
+	desc = kemetic_revival_event.7.a.desc #You adopt the Kemetic culture
+    set_culture = culture:kemetic
 }
 
 }
