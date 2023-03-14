@@ -13,7 +13,7 @@ override_background = {
 	event_background = wilderness_desert
 }
 
-trigger_if = {
+trigger = {
     AND = {
     is_ai = no
 	NOT = {
@@ -42,13 +42,13 @@ trigger_if = {
 }
 option = {
 	name = kemetic_revival_event.1.a #
-	desc = kemetic_revival_event.1.adesc #You start looking for ancient structures
+	selection_tooltip  = kemetic_revival_event.1.adesc #You start looking for ancient structures
 		random_list = {
 			hide = yes
 			25 = {
 				trigger_event = {
 					id = kemetic_revival_event.3
-					days = { 30 100 }
+					days = { 100 300 }
 				}
 				modifier = {
 					add = 20
@@ -71,7 +71,7 @@ option = {
 			75 = {
 				trigger_event = {
 					id = kemetic_revival_event.2
-					days = { 30 100 }
+					days = { 100 300 }
 				}	
 			}
 		}
@@ -79,7 +79,7 @@ option = {
 
 option = {
 	name = kemetic_revival_event.1.b #what a waste of time!
-	desc = kemetic_revival_event.1.b.desc #You carry on with your life as usual
+	selection_tooltip  = kemetic_revival_event.1.b.desc #You carry on with your life as usual
 		set_variable = { 
 			name = searched_for_the_pharaohs_tombs 
 			value = root
@@ -112,7 +112,7 @@ immediate = {
 }
 option = {
 	name = kemetic_revival_event.2.a
-	desc = kemetic_revival_event.2.adesc #You return home
+	selection_tooltip  = kemetic_revival_event.2.adesc #You return home
 		add_prestige = -100 
 		set_variable = { 
 			name = searched_for_the_pharaohs_tombs 
@@ -147,12 +147,12 @@ immediate = {
 
 option = { # Interesting, but this wealth will serve we well enough!
 	name = kemetic_revival_event.3.a
-	desc = kemetic_revival_event.3.adesc #You return home, pockets full
+	selection_tooltip  = kemetic_revival_event.3.adesc #You return home, pockets full
 		add_prestige = 350 
 }
 option = { # I wonder if these glyphs can be discyphered!
 name = kemetic_revival_event.3.b
-desc = kemetic_revival_event.3.b.desc #You start investigating the strange glyphs
+selection_tooltip  = kemetic_revival_event.3.b.desc #You start investigating the strange glyphs
 	add_cash = -100
 	trigger_event = {
 		id = kemetic_revival_event.4
@@ -236,24 +236,24 @@ right_portrait = {
 	}
 option = {
 	name = kemetic_revival_event.4.a #this has been a waste of time
-	desc = kemetic_revival_event.4.adesc #You give up
+	selection_tooltip  = kemetic_revival_event.4.adesc #You give up
     prestige = -50 
 }
 option = {
 	name = kemetic_revival_event.4.b #let's keep trying
-	desc = kemetic_revival_event.4.bdesc #You continue to try dicipering the glyphs
+	selection_tooltip  = kemetic_revival_event.4.bdesc #You continue to try dicipering the glyphs
 	add_stress = 25
 		random_list = {
-			70 = {
+			50 = {
 				trigger_event = {
 					id = kemetic_revival_event.5
-					days = { 30 50 }
+					days = { 100 200 }
 				}
 			}
-			30 = {
+			50 = {
 				trigger_event = {
 					id = kemetic_revival_event.8
-					days = { 30 50 }
+					days = { 100 200 }
 				modifier = {
 					add = 10
                     learning > 10
@@ -301,22 +301,3 @@ option = {
 }
 
 
-kemetic_revival_event.8 = {
-	hidden = yes
-	theme = hidden
-immediate = {
-	IF = {
-		limit = { knows_language = language_coptic }
-		trigger_event = {
-			id = kemetic_revival_event.7
-			days = { 50 100  }
-		}
-	}
-	ELSE = {
-		trigger_event = {
-			id = kemetic_revival_event.6
-			days = { 20 30 }
-		}
-	}
-}
-}

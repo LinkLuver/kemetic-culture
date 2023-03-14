@@ -68,13 +68,13 @@ mummification_event.2 = {
 	}
 
 	option = {
+		name = mummification_event.2.a
 		if = { 
 	        limit = {
 				root.age = { < 16 }
 			}
-            effect = { name = mummification_event.2.aa }
-	    }
-		else = { name = mummification_event.2.a }		
+            name = mummification_event.2.aa 
+	    }	
 	}
 
 	after = {

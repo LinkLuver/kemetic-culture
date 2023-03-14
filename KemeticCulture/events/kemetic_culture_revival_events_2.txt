@@ -1,5 +1,25 @@
 ﻿namespace = kemetic_revival_event
 
+kemetic_revival_event.8 = {
+	hidden = yes
+immediate = {
+	IF = {
+		limit = { knows_language = language_coptic }
+		trigger_event = {
+			id = kemetic_revival_event.7
+			days = { 50 100  }
+		}
+	}
+	ELSE = {
+		trigger_event = {
+			id = kemetic_revival_event.6
+			days = { 20 30 }
+		}
+	}
+}
+}
+
+
 kemetic_revival_event.5 = { #Faliure to dicipher the glyphs
 title = kemetic_revival_event.5.t 
 desc = kemetic_revival_event.5.desc
@@ -28,8 +48,11 @@ immediate = {
 }
 option = {
 	name = kemetic_revival_event.5.a #Oh well,
-	desc = kemetic_revival_event.5.adesc #You have failed to dicipher the glyphs
-		add_character_flag = failed_to_dicipher_heiroglyphs
+	selection_tooltip  = kemetic_revival_event.5.adesc #You have failed to dicipher the glyphs
+		set_variable = {
+			name = failed_to_dicipher_heiroglyphs
+			value = root
+		} 
 }
 }
 
@@ -46,7 +69,7 @@ override_background = {
 }
 option = {
     name = kemetic_revival_event.6.a
-	desc = kemetic_revival_event.6.adesc #you have learned the coptic language
+	selection_tooltip  = kemetic_revival_event.6.adesc #you have learned the coptic language
 	learn_language_of_culture = culture:coptic
 		trigger_event = {
 			id = kemetic_revival_event.7
@@ -76,12 +99,12 @@ immediate = {
 }
 option = {
 	name = kemetic_revival_event.7.a #learn kemetic
-	desc = kemetic_revival_event.7.adesc #You learn the kemetic language
+	selection_tooltip  = kemetic_revival_event.7.adesc #You learn the kemetic language
 	learn_language_of_culture = culture:kemetic
 }
 option = {
 	name = kemetic_revival_event.7.b #adopt kemetic culture
-	desc = kemetic_revival_event.7.bdesc #You adopt the Kemetic culture
+	selection_tooltip  = kemetic_revival_event.7.bdesc #You adopt the Kemetic culture
     set_culture = culture:kemetic
 }
 

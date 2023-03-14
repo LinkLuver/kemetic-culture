@@ -1,64 +1,77 @@
 ﻿
 
 
-mummify_ancestor_decision = {
+look_for_egyptian_tomb_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 	
 	sort_order = 75
 
-	desc = mummify_ancestor_decision_desc
-	selection_tooltip = mummify_ancestor_decision_tooltip
+	desc = look_for_egyptian_tomb_decision_desc
+	selection_tooltip = look_for_egyptian_tomb_decision_tooltip
 
-	is_shown = {
-		faith = {
-			has_doctrine_parameter = mummification_active
+is_shown = {
+	is_ai = no
+	NOT = {
+		OR = {
+			has_variable =  searched_for_the_pharaohs_tombs 
+			has_global_variable = ancient_egyptian_tomb_found 
 		}
-		has_variable = ancestor_to_bury
-		NOT = { has_variable = mummifying_ancestor }
 	}
-
-	effect = {
-		show_as_tooltip = {
-			add_piety = major_piety_value
-			if = {
-				limit = {
-					any_vassal = {
-						faith = {
-							has_doctrine_parameter = mummification_active
-						}
-					}
-				}
-				every_vassal = {
-					limit = {
-						faith = {
-							has_doctrine_parameter = mummification_active
-						}
-					}
-					custom = mummify_ancestor_vassals
-					add_opinion = {
-						modifier = pleased_opinion
-						target = root
-						opinion = 20
-					}
-				}
-			}
-		}
-		trigger_event = {
-			id = mummification_event.2
-		} 
+	any_held_county = { 
+		any_county_in_region = {
+            region = ghw_region_egypt
+		}	    
 	}
-
-	ai_check_interval = 36
-	cooldown = { months = 12 }
-	
-	ai_potential = {
-		always = yes
-	}
-
-	ai_will_do = {
-		base = 100
+	OR = {
+		knows_language = language_coptic
+		knows_language = language_kemetic
+		learning > 10
 	}
 }
+	effect = {
+		trigger_event = {
+			id = kemetic_revival_event.1
+	    }
+	}
+	
+	ai_potential = {
+		always = no
+	}
+}
+
+study_the_heiroglyphs_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	
+	sort_order = 75
+
+	desc = study_the_heiroglyphs_decision_desc
+	selection_tooltip = study_the_heiroglyphs_decision_tooltip
+
+is_shown = {
+	is_ai = no
+	has_global_variable = ancient_egyptian_tomb_found 
+	NOT = {
+		OR = {
+			knows_language = language_kemetic
+			has_variable = failed_to_dicipher_heiroglyphs		
+		}
+	}
+	any_held_county = { 
+		any_county_in_region = {
+            region = ghw_region_egypt
+		}	    
+	}
+}
+
+	effect = {
+		add_cash -100
+		trigger_event = {
+			id = mummification_event.4
+		days = { 70 100 }
+		}
+	}
+}
+
 
 #build_tomb_decision = {
 #	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"

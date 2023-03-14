@@ -12,14 +12,14 @@ kemetic_revival_event.3.desc:0 "After days of wandering about in the dry wildern
 kemetic_revival_event.3.a:0 "These treasures will serve me well!"
 kemetic_revival_event.3.b:0 "I wonder if these glyphs can be diciphered?"
 kemetic_revival_event.4.t:0 "Cryptic Messages"
-kemetic_revival_event.4.desc:0 "Having traced copies of the glyphs from their desert tomb, I have made it my mission to uncover the secrets of these ancient Egyptians. My [court_chaplain.GetCouncilTitle], [court_chaplain.GetFirstName], has been helping me try to dicipher what these glyphs could mean. Are they an undicovered language? A code of dates? Only one thing is sure, that this will take a long time to figure out."
+kemetic_revival_event.4.desc:0 "Having traced copies of the glyphs from their desert tomb, I have made it my mission to uncover the secrets of these ancient Egyptians. My Head Priest has been helping me try to dicipher what these glyphs could mean. Are they an undicovered language? A code of dates? Only one thing is sure, that this will take a long time to figure out."
 kemetic_revival_event.4.a:0 "This has been a waste of time"
 kemetic_revival_event.4.b:0 "Let's keep trying"
 kemetic_revival_event.5.t:0 "Undicipherable"
-kemetic_revival_event.5.desc:0 "After months of trying, both me and [court_chaplain.GetFirstName] have made little progress. Now that other matters call my attention, I can no longer afford to waste any more time or resouces on this folly."
+kemetic_revival_event.5.desc:0 "After months of trying, both me and my Head Priest have made little progress. Now that other matters call my attention, I can no longer afford to waste any more time or resouces on this folly."
 kemetic_revival_event.5.a:0 "Oh well"
 kemetic_revival_event.6.t:0 "A helpful Tounge"
-kemetic_revival_event.6.desc:0 "Looking for a missing link to this ancient civilization, my [court_chaplain.GetCouncilTitle] has suggested that there may be links between the ancient inhabitants of these lands, and those who lived here before us, the Copts. In a bid to see if there culture may help me better understand these glyphs, I have painstakingly devoted myself to learning their language. Is it possible that this tounge may be connected to the contents of this ancient script?"
+kemetic_revival_event.6.desc:0 "Looking for a missing link to this ancient civilization, my High Priest has suggested that there may be links between the ancient inhabitants of these lands, and those who lived here before us, the Copts. In a bid to see if there culture may help me better understand these glyphs, I have painstakingly devoted myself to learning their language. Is it possible that this tounge may be connected to the contents of this ancient script?"
 kemetic_revival_event.6.a: "Is this the key?"
 kemetic_revival_event.7.t:0 "Eureka!"
 kemetic_revival_event.7.desc:0 "We've done it! After comparing texts of these Heiroglyphs with the coptic language (and a helpful text of papyrus, filled with both an easier version of these glyphs, and with a primative form of Greek) we have managed to crack the code of this ancient language! So much information on this ancient civilization has been unlocked, their beliefs, their ways of life, their history, I can understand it all!"
@@ -38,3 +38,15 @@ kemetic_revival_event.6.adesc:0 "you have learned the Coptic language" #you have
 kemetic_revival_event.7.adesc:0 "You learn the Kemetic language" #You learn the kemetic language
 kemetic_revival_event.7.bdesc:0 "You adopt the Kemetic culture" #You adopt the Kemetic culture
 
+
+# descisions
+
+look_for_egyptian_tomb_decision:0 "Wander into the Desert"
+look_for_egyptian_tomb_decision_desc:0 "The deserts beyond the banks of the Nile, though empty and daunting seem to call those who are brave enough to explore it."
+look_for_egyptian_tomb_decision_tooltip:0 "You wander into the desert, beside the banks of the river nile."
+look_for_egyptian_tomb_decision_confirm:0 "Is there something out there?."
+
+study_the_heiroglyphs_decision:0 "Study the Heiroglyphs."
+study_the_heiroglyphs_decision_desc:0 "A previous ruler of these lands has gained great fame for their discovery of an Ancient Egyptian tomb, however their strange codes, written on the tomb walls, remain undicipered. With a lot of effort, maybe it's possible to complete this feat, and gain a little fame for myself."
+study_the_heiroglyphs_decision_tooltip:0 "You start studying the strange glyphs"
+study_the_heiroglyphs_decision_confirm:0 "Time to hit the study!"

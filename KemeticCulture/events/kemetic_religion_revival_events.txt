@@ -1,4 +1,4 @@
-﻿namespace = kemetic_religion_rivival_event
+﻿namespace = kemetic_religion_revival_event
 
 
 
