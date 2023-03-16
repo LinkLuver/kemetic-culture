@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 mummify_ancestor_decision:0 "Embalm Ancestor"
 mummify_ancestor_decision_desc:0 "My [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)] has sadly passed from this life, it is my duty to make sure that [ROOT.Var('ancestor_to_bury').Char.GetHerHis] body and possestions are prepared for the next, and for [ROOT.Var('ancestor_to_bury').Char.GetHerHis] journey to Duat."
@@ -14,3 +14,4 @@ mummification_event.3.t:0 "Embalming"
 mummification_event.3.desc:0 "I enter the temple room, to see that [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] preserved body has been wrapped in resin and linen, with an extravegant facemask placed over [ROOT.Var('ancestor_to_bury').Char.GetHerHis] head. "My [ROOT.Char.GetTitleAsNameNoTooltip]", a [ROOT.Char.GetFaith.PriestNeuter] tells me, "We will take [ROOT.Var('ancestor_to_bury').Char.GetFirstNamePossessive] body to [ROOT.Var('ancestor_to_bury').Char.GetHerHis] tomb, where [ROOT.Var('ancestor_to_bury').Char.GetHerHis] possesions are already awaiting him for [ROOT.Var('ancestor_to_bury').Char.GetHerHis] journey to Duat"."
 mummification_event.3.a:0 "Thank you. Rest in peace, [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)]."
 
+mummify_ancestor_decision_confirm:0 "Start Embalment"
