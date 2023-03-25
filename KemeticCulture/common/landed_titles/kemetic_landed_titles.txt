@@ -1403,12 +1403,12 @@
 	
 		k_egypt = {
 			color = { 10 255 80 }
-			color2 = { 255 255 255 }
+			color2 = { 255 255 255 }	
+			capital	= c_cairo
 			cultural_names = {
 				name_list_kemetic = cn_k_egypt_kemetic
 				name_list_coptic = cn_k_egypt_coptic
-			}	
-			capital	= c_cairo
+			}
 			ai_primary_priority = {
 				if = {
 					limit = {

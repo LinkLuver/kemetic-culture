@@ -5,7 +5,9 @@
 	culture = butr
 	religion = ashari
 	holding = castle_holding
-	
+	special_building_slot = building_large_kemetic_pyramid
+    special_building_slot = building_medium_kemetic_pyramid	
+
 	# History
 	1050.1.1 = { #Area conquered by tribals and turned into nomadic pastures
 		holding = tribal_holding
@@ -98,6 +100,8 @@
 	culture = coptic
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid
+
 	867.1.1 = {
 		buildings = {
 			common_tradeport_02
@@ -137,12 +141,14 @@
 	culture = egyptian
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid
 }
 6092 = {	#AIN_AL-GHANBI
 	holding = none
 }
 6117 = {	#QARA
 	holding = none
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 
 ##d_delta ###################################
@@ -151,6 +157,7 @@
 	culture = egyptian
 	religion = coptic
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 	900.1.1 = {
 		religion = ashari
 	}
@@ -183,6 +190,7 @@
 	culture = egyptian
 	religion = coptic
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 	900.1.1 = {
 		religion = ashari
 	}
@@ -223,6 +231,7 @@
 	culture = egyptian
 	religion = ashari
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 	#867.1.1 = { name = "Fustat" }
 	970.1.1 = {
 		#special_building_slot = al_azhar_university
@@ -251,6 +260,7 @@
 }
 6066 = {	#HULWAN-CAIRO
 	holding = church_holding
+	special_building_slot = building_large_kemetic_pyramid
 }
 
 ###c_giza
@@ -278,6 +288,7 @@
 	culture = egyptian
 	religion = coptic
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6059 = {	#TIRSA
 	#holding = none
@@ -292,6 +303,7 @@
 	culture = butr
 	religion = ashari
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid	
 }
 6090 = {	#BAWITI
 	holding = none
@@ -312,6 +324,7 @@
 	culture = egyptian
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid	
 }
 6086 = {	#TUNAYDA
 	holding = none
@@ -325,9 +338,11 @@
 	culture = coptic
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid
 }
 6084 = {	#BARIS
 	holding = none
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 
 ##d_al-said ###################################
@@ -336,6 +351,7 @@
 	culture = coptic
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid
 	1171.1.1 = {
 		culture = egyptian
 		religion = ashari
@@ -346,9 +362,11 @@
 }
 6075 = {	#FAW
 	#holding = none
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6076 = {	#QINA
 	holding = church_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6078 = {	#ARMANT
 	#holding = none
@@ -359,6 +377,7 @@
 	culture = coptic
 	religion = coptic
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 	900.1.1 = {
 		culture = egyptian
 		religion = ashari
@@ -376,6 +395,7 @@
 	culture = coptic
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid
 	#1171.1.1 = { religion = ashari}
 }
 6068 = {	#ANSINA
@@ -390,6 +410,7 @@
 	culture = coptic
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_large_kemetic_pyramid	
 	900.1.1 = {
 		culture = egyptian
 	}
@@ -400,6 +421,7 @@
 }
 6072 = {	#IKHMIN
 	holding = city_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6073 = {	#IBSHAYA
 	#holding = none
@@ -410,6 +432,7 @@
 	culture = coptic
 	religion = coptic
 	holding = castle_holding
+	special_building_slot = building_medium_kemetic_pyramid
 	900.1.1 = {
 		culture = egyptian
 	}
@@ -417,12 +440,14 @@
 }
 6079 = {	#UDFU
 	holding = none
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6080 = {	#ZARNIKH
 	holding = none
 }
 6082 = {	#ASWAN-WEST
 	holding = none
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 
 
@@ -432,6 +457,7 @@
 	culture = bedouin
 	religion = ashari
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6122 = {	#SAFAGA
 	holding = city_holding
@@ -442,6 +468,7 @@
 	culture = bedouin
 	religion = ashari
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6119 = {	#CENTRAL_JBL _QUZLUM
 	holding = none
@@ -459,6 +486,7 @@
 	culture = egyptian
 	religion = ashari
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6036 = {	#WARRADA
 	#holding = none
@@ -472,6 +500,7 @@
 	culture = bedouin
 	religion = ashari
 	holding = castle_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 	909.1.1 = {
 		religion = ismaili
 	}
@@ -481,6 +510,7 @@
 }
 6032 = {	#SAINT CATHERINE
 	holding = church_holding
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 6034 = {	#FARAN
 	#holding = none
@@ -490,6 +520,7 @@
 }
 6037 = {	#TIH
 	#holding = none
+    special_building_slot = building_medium_kemetic_pyramid	
 }
 
 ###c_firaun

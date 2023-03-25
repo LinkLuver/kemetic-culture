@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
 mummify_ancestor_decision:0 "Embalm Ancestor"
 mummify_ancestor_decision_desc:0 "My [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)] has sadly passed from this life, it is my duty to make sure that [ROOT.Var('ancestor_to_bury').Char.GetHerHis] body and possestions are prepared for the next, and for [ROOT.Var('ancestor_to_bury').Char.GetHerHis] journey to Duat."

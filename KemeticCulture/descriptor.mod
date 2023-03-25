@@ -1,6 +1,7 @@
-version="1.0.0"
+version="1.1.0"
 tags={
 	"Culture"
+      "Religion"
 }
 name="Kemetic Culture"
 supported_version="1.8.1"

@@ -15,6 +15,7 @@ is_shown = {
 		OR = {
 			has_variable =  searched_for_the_pharaohs_tombs 
 			has_global_variable = ancient_egyptian_tomb_found 
+			has_variable = searching_for_the_pharaohs_tombs
 		}
 	}
 	any_held_county = { 
@@ -29,8 +30,13 @@ is_shown = {
 	}
 }
 	effect = {
+		set_variable = {
+			name = searching_for_the_pharaohs_tombs
+			scope = root
+		}
 		trigger_event = {
 			id = kemetic_revival_event.1
+			days = { 1 10 }
 	    }
 	}
 	
@@ -53,7 +59,8 @@ is_shown = {
 	NOT = {
 		OR = {
 			knows_language = language_kemetic
-			has_variable = failed_to_dicipher_heiroglyphs		
+			has_variable = failed_to_dicipher_heiroglyphs
+			has_variable = studying_heiroglyphs		
 		}
 	}
 	any_held_county = { 
@@ -64,9 +71,13 @@ is_shown = {
 }
 
 	effect = {
+		set_variable = {
+			name = studying_heiroglyphs
+			scope = root
+		}
 		add_cash -100
 		trigger_event = {
-			id = mummification_event.4
+			id = kemetic_revival_event.4
 		days = { 70 100 }
 		}
 	}

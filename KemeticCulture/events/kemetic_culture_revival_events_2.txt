@@ -53,6 +53,7 @@ option = {
 			name = failed_to_dicipher_heiroglyphs
 			value = root
 		} 
+		remove_variable = studying_heiroglyphs
 }
 }
 
@@ -96,6 +97,7 @@ override_background = {
 }
 immediate = {
 	add_prestige = 350
+	remove_variable = studying_heiroglyphs
 }
 option = {
 	name = kemetic_revival_event.7.a #learn kemetic

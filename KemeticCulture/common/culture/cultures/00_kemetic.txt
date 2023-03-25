@@ -9,7 +9,7 @@ kemetic = {
 	ethos = ethos_bureaucratic
 	
 	traditions = {
-		tradition_warriors_of_the_dry
+		tradition_pyramid_builders
 		tradition_hard_working 
         tradition_agrarian
 		tradition_zealous_people
