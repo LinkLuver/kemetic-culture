@@ -1,0 +1,17 @@
+﻿# character having its birthday in root scope
+# tested after age has increased
+on_action_kemetic = {
+	on_yearly_global
+    on_actions = {
+		on_ancestor_to_bury_kemetic
+	}
+}
+
+
+on_ancestor_to_bury_kemetic = {
+	on_yearly_global
+	events = {
+		mummification_event.1
+		delay = { days = 3 }
+	}
+}

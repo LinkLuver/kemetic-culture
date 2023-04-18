@@ -16,6 +16,7 @@ is_shown = {
 			has_variable =  searched_for_the_pharaohs_tombs 
 			has_global_variable = ancient_egyptian_tomb_found 
 			has_variable = searching_for_the_pharaohs_tombs
+			culture = { namelist = kemetic_namelist }
 		}
 	}
 	any_held_county = { 
@@ -36,7 +37,6 @@ is_shown = {
 		}
 		trigger_event = {
 			id = kemetic_revival_event.1
-			days = { 1 10 }
 	    }
 	}
 	

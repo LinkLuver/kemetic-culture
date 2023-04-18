@@ -1,6 +1,4 @@
 ﻿
-
-
 mummify_ancestor_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 	
@@ -59,75 +57,3 @@ mummify_ancestor_decision = {
 		base = 100
 	}
 }
-
-#build_tomb_decision = {
-#	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
-#
-#	desc = build_tomb_decision_desc
-#	selection_tooltip = build_tomb_decision_tooltip
-#
-#	is_shown = {
-#		faith = {
-#			has_doctrine_parameter = mummification_active
-#		}
-#		NOT = { has_character_flag = built_egyptian_tomb }
-#	}
-
-#	is_valid = {
-#	}
-
-#	is_valid_showing_failures_only = {
-
-#	}
-
-#	effect = {
-		#The modifier will only be active if a character of your dynasty holds it
-#		capital_province = {
-#			county = {
-#				set_variable = {
-#					name = ancestor_to_bury
-#					value = root.var:ancestor_to_bury
-#				}
-#				root = {
-#					send_interface_toast = {
-#						title = Built_egyptian_tomb_decision_toast
-#						left_icon = root
-
-#						prev = {
-#							add_county_modifier = {
-#								modifier = built_egyptian_tomb_in_location
-#							}
-#						}
-#					}
-#				}
-#			}
-#		}
-#		add_character_flag = built_egyptian_tomb
-#		add_piety = high_piety_value
-#		every_vassal = {
-#			faith = {
-#				has_doctrine_parameter = mummification_active
-#			}
-#			custom = built_egyptian_tomb_vassals
-#			add_opinion = {
-#				modifier = pleased_opinion
-#				target = root
-#				opinion = 10
-#			}
-#		}
-#		#Show a warning about it being destroyed if someone outside of your dynasty takes over the county it's built in
-#		custom_description_no_bullet = {
-#			text = build_tomb_decision_warning
-#		}
-#	}
-
-#	ai_check_interval = 36
-	
-#	ai_potential = {
-#		always = yes
-#	}
-
-#	ai_will_do = {
-#		base = 100
-#	}
-#}
